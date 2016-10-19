@@ -5,5 +5,11 @@ Router.configure({
 });
 
 Router.route('/', {
-    template: 'home'
+    template: 'home',
+    name: 'home'
+});
+
+Router.route('/login', {
+    template: 'signup',
+    name: 'signup'
 });

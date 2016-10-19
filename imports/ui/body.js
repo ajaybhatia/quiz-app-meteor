@@ -4,6 +4,7 @@ import './body.html';
 import '../startups/routers';
 import './navbar';
 import './home';
+import './signup';
 import './footer';
 
 Template.home.helpers({
