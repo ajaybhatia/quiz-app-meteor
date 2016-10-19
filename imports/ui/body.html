@@ -1,9 +1,12 @@
 <template name="main">
-    {{> yield}}
-</template>
+    <!-- Fixed navbar -->
+    {{> navbar}}
 
-<template name="home">
+    <!-- Begin page content -->
     <div class="container">
-        <h1>{{title}}</h1>
+        {{> yield}}
     </div>
+
+    <!-- Begin footer -->
+    {{> footer}}
 </template>
