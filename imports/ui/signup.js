@@ -16,5 +16,11 @@ Template.signup.events({
         $('#login-form-link').removeClass('active');
         $(this).addClass('active');
         event.preventDefault();
+    },
+    'click #login-form'(event) {
+        event.preventDefault();
+    },
+    'click #register-form'(event) {
+        event.preventDefault();
     }
 });
