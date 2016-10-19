@@ -1,8 +1,9 @@
 import { Template } from 'meteor/templating';
 
 import './body.html';
+import '../startups/routers';
 
-Template.main.helpers({
+Template.home.helpers({
     title() {
         return "Quiz App";
     }
